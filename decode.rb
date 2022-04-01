@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 def decode_char(char)
   dictionary = {
     '.-' => 'A', '-...' => 'B', '-.-.' => 'C', '-..' => 'D', '.' => 'E', '..-.' => 'F', '--.' => 'G',
